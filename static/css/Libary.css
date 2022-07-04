@@ -1,0 +1,82 @@
+/* Nav bar */
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #00b39b;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #00b39b;
+}
+
+.dropdown-content a:hover {
+  color: #00b39b;
+}
+
+.nav-item a:hover {
+  color: #00b39b;
+}
+
+/* section 1 */
+
+#hero {
+  margin-top: 150px;
+}
+
+/* section 2 cards */
+#f-select,
+#s-select,
+#t-select,
+#q-select {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* section 3 */
+
+#bo {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#bo:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
